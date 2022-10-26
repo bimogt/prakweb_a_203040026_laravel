@@ -1,7 +1,7 @@
 <!--navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
       <div class="container">
-        <a class="navbar-brand" href="#">bimo Blog</a>
+        <a class="navbar-brand" href="#">bimos Blog</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,7 +14,7 @@
               <a class="nav-link" {{ ($title === "About")?'active' : '' }} href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" {{ ($title === "Posts")?'active' : '' }} href="/blog">Blog</a>
+              <a class="nav-link" {{ ($title === "Posts")?'active' : '' }} href="/posts">Blog</a>
             </li>
           </ul>
         </div>
